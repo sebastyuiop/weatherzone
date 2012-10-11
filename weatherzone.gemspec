@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://www.weatherzone.com.au"
   s.summary     = %q{Abstracts the API calls to the WeatherZone web service}
 
-  s.rubyforge_project = "weatherzone"
+  #s.rubyforge_project = "weatherzone"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
