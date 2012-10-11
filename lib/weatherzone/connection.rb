@@ -57,7 +57,8 @@ module Weatherzone
       uri = URI.parse(wz_url_for(params))
       info("GET #{uri}")
       timeout(self.timeout_after) do
-        uri.read
+        #uri.read
+        open(uri, :proxy => true).read
       end
     rescue Timeout::Error, SocketError => e
       error("webservice connection failed #{e}")
