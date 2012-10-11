@@ -4,7 +4,7 @@ require "weatherzone/version"
 
 Gem::Specification.new do |s|
   s.name        = "weatherzone"
-  s.version     = WeatherzoneNew::VERSION
+  s.version     = Weatherzone::VERSION
   s.authors     = ["Ben Askins"]
   s.email       = ["ben.askins@gmail.com"]
   s.homepage    = "http://www.weatherzone.com.au"
